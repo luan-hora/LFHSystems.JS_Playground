@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS App - Create clients</title>
+
+    <link rel="stylesheet" href="../../Scripts/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/clientsCreate.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="../main.html">JS Portfolio</a>
+    </nav>
+    <main role="main">
+        <div style="display: hidden; margin-top: 100px;"></div>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-5">A functioning Client create</h1>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="todos"></ul>
+
+            <form action="/">
+                <div class="col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="input-group">
+                            <div class="col-md-3 col-lg-3">
+                                <label for="txtToDoItem">To-Do Item</label>
+                                <input id="txtToDoItem" type="text" class="form-control"
+                                    placeholder="Add your next to-do item">
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="input-group">
+                            <div class="md-col-2 col-lg-2">
+                                <input id="btnAddToDo" class="btn btn-primary" type="button" value="Add Item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="col-md-12 col-lg-12">
+                <table class="tableCustom">
+                    <tr class="col-md-6 col-lg-6 ">
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr class="col-md-3">
+                        <td>Luan</td>
+                        <th>25</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer class="container border-top">
+        <p>LHS System - 2021</p>
+    </footer>
+</body>
+<script defer type="text/javascript" src="../../Scripts/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<link rel="stylesheet" href="../../Scripts/node_modules/sweetalert2/dist/sweetalert2.min.css">
+
+</html>
